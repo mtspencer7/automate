@@ -1,0 +1,9 @@
+testname123: {=If ([Employment Status]) InList ("Active") Then "Include - Active"
+ElseIf ([Employment Status]) InList ("Inactive") Then "Include - Inactive"
+ElseIf ([Employment Status]) InList ("Active") Then "Include - Active"
+ElseIf ([Employment Status]) InList ("Inactive") Then "Include - Inactive"
+ElseIf ([Employee Groupings]) InList ("Part-Time") Then "Include - Part-Time"
+ElseIf ([Employee Groupings]) InList ("Daily Hires") Then "Include - Daily Hires"
+ElseIf ([Employee Groupings]) InList ("Interns/Pages") Then "Include - Interns/Pages"
+ElseIf ([Employment Status]) InList ("Active") Then "Include - Active"
+ElseIf ([Employment Status]) InList ("Inactive") Then "Include - Inactive"}
