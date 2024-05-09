@@ -1,14 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[62]:
-
 
 pip install pyperclip
-
-
-# In[2]:
-
 
 import tkinter as tk
 from tkinter import ttk, scrolledtext, simpledialog, messagebox
